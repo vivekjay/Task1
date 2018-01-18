@@ -21,7 +21,6 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tv1"
             android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true">
 
@@ -37,7 +36,6 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tv2"
             android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true">
 
@@ -63,23 +61,28 @@
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:id="@+id/et3"/>
-
-
-
-
         </android.support.design.widget.TextInputLayout>
 
         <Button
+            android:id="@+id/bt1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:layout_margin="40dp"
-            android:layout_gravity="center"
+            android:layout_margin="20dp"
             android:textSize="18sp"
             android:background="@color/colorPrimaryDark"
             android:textColor="@android:color/white"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.23" />
 
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic" />
 
     </LinearLayout>
 
