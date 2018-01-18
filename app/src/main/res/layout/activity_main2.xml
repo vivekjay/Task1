@@ -102,6 +102,7 @@
             android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
             android:text="Save"
+            android:textAllCaps="false"
             android:background="@color/colorPrimaryDark"
             android:textColor="@android:color/white"
             android:textStyle="bold|italic"
