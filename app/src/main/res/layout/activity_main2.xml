@@ -99,14 +99,14 @@
         <Button
             android:id="@+id/bt2"
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/screen"
             android:text="Save"
             android:textAllCaps="false"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@android:color/white"
-            android:textStyle="bold|italic"
-            android:textSize="20sp"/>
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
 
     </LinearLayout>
 

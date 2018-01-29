@@ -19,25 +19,13 @@
         android:paddingRight="10dp"
         android:paddingLeft="10dp">
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_centerHorizontal="true">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="User Name"
-                android:id="@+id/et1"/>
-
-        </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Emailid_TIL"
             android:layout_centerHorizontal="true">
 
             <EditText
@@ -46,44 +34,57 @@
                 android:ems="10"
                 android:hint="Email Id"
                 android:inputType="textEmailAddress"
-                android:id="@+id/et2"/>
+                android:id="@+id/emailid"/>
 
         </android.support.design.widget.TextInputLayout>
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true"
-            android:id="@+id/password">
+            android:id="@+id/Password_TIL">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:id="@+id/et3"/>
+                android:id="@+id/pass"/>
         </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
 
         <Button
-            android:id="@+id/bt1"
+            android:id="@+id/Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Logins"
             android:layout_margin="20dp"
-            android:textSize="18sp"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@android:color/white"
             android:layout_marginTop="30dp"
-            android:layout_weight="0.23" />
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+            <Button
+                android:id="@+id/Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:text="SignUp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Signup"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:textStyle="italic" />
+        </LinearLayout>
+
+
 
     </LinearLayout>
 

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Task1</string>
     <string name="Signup"><u><b><i>Signup</i></b></u></string>
+    <string name="text_title">Sqlite Android Team</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_accounts">All Accounts</string>
 </resources>
