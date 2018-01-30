@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:id="@+id/linear"
     android:background="@drawable/back"
     android:orientation="vertical"
     android:padding="10dp"
@@ -60,7 +61,7 @@
 
 
         <Button
-            android:id="@+id/Login"
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -71,7 +72,7 @@
             android:textColor="#fff"
             android:textSize="18sp" />
             <Button
-                android:id="@+id/Signup"
+                android:id="@+id/signup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"

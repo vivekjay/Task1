@@ -16,6 +16,7 @@ import java.util.List;
 public class Helper extends SQLiteOpenHelper {
 
     // Database Version
+
     private static final int DATABASE_VERSION = 1;
    private   static final String DATABASE_NAME="VIJAY.db";
     private   static final String TABLE_NAME="User";
@@ -240,5 +241,9 @@ public class Helper extends SQLiteOpenHelper {
         }
 
         return false;
+    }
+
+    boolean checkUser(String email,String passwid){
+        return  true;
     }
 }
