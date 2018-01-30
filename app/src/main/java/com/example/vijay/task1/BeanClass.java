@@ -11,6 +11,8 @@ public class BeanClass {
     private String password;
 
 
+
+
     public String getUsername() {
         return username;
     }
